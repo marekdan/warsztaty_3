@@ -31,7 +31,7 @@ $(function () {
                     success: function (result) {
                         console.log('sukces');
                         for (var i = 0; i < result.length; i++) {
-                            $('h1').append('<div>'+result[i].name+'</div>');
+                            $('h1').append('<div>' + result[i].name + '</div>');
                         }
                     },
                     error: function () {
@@ -43,7 +43,7 @@ $(function () {
 
                 });
             },
-            error: function (a,b,c) {
+            error: function (a, b, c) {
                 console.log('blad 1');
             },
             complete: function () {
