@@ -29,7 +29,13 @@
     <input id="addButton" type="submit" value="Dodaj książkę">
 </form>
 
+<form method="GET">
+    <input id="addButton" type="submit" value="Pokaż książki">
+</form>
+
 <h1>Lista Książek: </h1>
+<div id="books"></div>
+
 </body>
 
 </html>
